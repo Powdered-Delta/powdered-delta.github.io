@@ -2,16 +2,16 @@ import type { SiteConfig } from '~/types'
 
 const config: SiteConfig = {
   // Absolute URL to the root of your published site, used for generating links and sitemaps.
-  site: 'https://multiterm.stelclementine.com',
+  site: 'powdered-delta.github.io',
   // The name of your site, used in the title and for SEO.
-  title: 'MultiTerm',
+  title: 'M0e_N00b`s Nest',
   // The description of your site, used for SEO and RSS feed.
   description:
-    'A coder-ready Astro blog theme with 59 of your favorite color schemes to choose from',
+    "巧制代码，改变人生",
   // The author of the site, used in the footer, SEO, and RSS feed.
-  author: 'Katy Kookaburra',
+  author: 'M0e_N00b',
   // Keywords for SEO, used in the meta tags.
-  tags: ['Astro', 'Terminal', 'Theme', 'MultiTerm', 'stelcodes'],
+  tags: [],
   // Path to the image used for generating social media previews.
   // Needs to be a square JPEG file due to limitations of the social card generator.
   // Try https://squoosh.app/ to easily convert images to JPEG.
@@ -30,30 +30,30 @@ const config: SiteConfig = {
   // The navigation links to display in the header.
   navLinks: [
     {
-      name: 'Home',
+      name: '首页',
       url: '/',
     },
     {
-      name: 'About',
+      name: '关于',
       url: '/about',
     },
     {
-      name: 'Archive',
+      name: '归档',
       url: '/posts',
     },
     {
       name: 'GitHub',
-      url: 'https://github.com/stelcodes/multiterm-astro',
+      url: 'https://github.com/Powdered-Delta',
       external: true,
     },
   ],
   // The theming configuration for the site.
   themes: {
     // The theming mode. One of "single" | "select" | "light-dark-auto".
-    mode: 'select',
+    mode: 'single',
     // The default theme identifier, used when themeMode is "select" or "light-dark-auto".
     // Make sure this is one of the themes listed in `themes` or "auto" for "light-dark-auto" mode.
-    default: 'catppuccin-mocha',
+    default: 'ayu-dark',
     // Shiki themes to bundle with the site.
     // https://expressive-code.com/guides/themes/#using-bundled-themes
     // These will be used to theme the entire site along with syntax highlighting.
@@ -152,13 +152,13 @@ const config: SiteConfig = {
   },
   // Social links to display in the footer.
   socialLinks: {
-    github: 'https://github.com/stelcodes/multiterm-astro',
-    mastodon: 'https://github.com/stelcodes/multiterm-astro',
-    email: 'https://github.com/stelcodes/multiterm-astro',
-    linkedin: 'https://github.com/stelcodes/multiterm-astro',
-    bluesky: 'https://github.com/stelcodes/multiterm-astro',
-    twitter: 'https://github.com/stelcodes/multiterm-astro',
-    rss: true, // Set to true to include an RSS feed link in the footer
+    github: 'https://github.com/Powdered-Delta',
+    // mastodon: 'https://github.com/stelcodes/multiterm-astro',
+    // email: 'm0e_noob@163.com',
+    // linkedin: 'https://github.com/stelcodes/multiterm-astro',
+    // bluesky: 'https://github.com/stelcodes/multiterm-astro',
+    // twitter: 'https://github.com/stelcodes/multiterm-astro',
+    // rss: true, // Set to true to include an RSS feed link in the footer
   },
   // Configuration for Giscus comments.
   // To set up Giscus, follow the instructions at https://giscus.app/
@@ -166,13 +166,14 @@ const config: SiteConfig = {
   // Take the values from the generated script tag at https://giscus.app and fill them in here.
   // IMPORTANT: Update giscus.json in the root of the project with your own website URL
   // If you don't want to use Giscus, set this to undefined.
-  giscus: {
-    repo: 'stelcodes/multiterm-astro',
-    repoId: 'R_kgDOPNnBig',
-    category: 'Giscus',
-    categoryId: 'DIC_kwDOPNnBis4CteOc',
-    reactionsEnabled: true, // Enable reactions on post itself
-  },
+  giscus: undefined,
+  // giscus: {
+  //   repo: 'stelcodes/multiterm-astro',
+  //   repoId: 'R_kgDOPNnBig',
+  //   category: 'Giscus',
+  //   categoryId: 'DIC_kwDOPNnBis4CteOc',
+  //   reactionsEnabled: true, // Enable reactions on post itself
+  // },
   // These are characters available for the character chat feature.
   // To add your own character, add an image file to the top-level `/public` directory
   // Make sure to compress the image to a web-friendly size (<100kb)

@@ -1,6 +1,48 @@
 ---
 layout: '~/layouts/MarkdownLayout.astro'
-title: About Me
+title: 关于
 ---
 
-The laughing kookaburra (Dacelo novaeguineae) is a bird in the kingfisher subfamily Halcyoninae. It is a large robust kingfisher with a whitish head and a brown eye-stripe. The upperparts are mostly dark brown but there is a mottled light-blue patch on the wing coverts. The underparts are cream-white and the tail is barred with rufous and black. The plumage of the male and female birds is similar. The territorial call is a distinctive laugh that is often delivered by several birds at the same time, and is widely used as a stock sound effect in situations that involve a jungle setting.
+## 关于我
+
+一名热爱技术与生活的前端开发者，始终保持着对新事物的好奇心和探索精神。
+同时热衷于搞一些稀奇古怪Cosplay道具等手工制作。
+
+## 技术专长
+
+作为一名前端码农，我专注于：
+
+- **现代前端框架**：熟练掌握 Vite+Vue+TypeScript 以及 微信小程序/UniApp 开发, 同时 React、Flutter、Electron、Tauri 等等也有涉猎
+- **响应式设计**：能够基于 Tailwind CSS、 Bootstrap 等工具创造适应各种设备的响应式界面
+- **性能优化**：轻微强迫症，致力于编写流畅且直观的交互逻辑
+- **数据可视化**: 能够使用 Echarts, Threejs, Pixijs 等 WebGL 库，进行数据可视化效果的简单实现
+
+## 兴趣与技能
+
+我培养了丰富多彩的兴趣爱好和实用技能：
+
+### 🎨 创意设计
+
+- 平面设计与视觉创作
+- UI/UX 设计思维
+- 像素艺术与数字绘画
+- Cosplay 道具制作
+- 简易 Live2D 模型制作
+
+### 🔧 硬件极客
+
+- 单片机开发（Arduino、ESP32等）
+- 电子制作与DIY项目
+
+### 🎮 3D创作
+
+- 使用 Blender 进行低多边形建模
+- 使用 SW/UG 进行参数建模
+- 角色绑定与动画
+- 使用 3D打印机 进行模型打印
+
+## 生活哲学
+
+技术应该服务于生活，编程不只是工作，更是带来美好体验的工具。
+
+*巧制代码，改变人生*

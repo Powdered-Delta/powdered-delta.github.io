@@ -32,7 +32,7 @@ const postsHaveSeries = sortedPosts.some((post) => post.data.series)
 <Layout>
   {
     HomeContent && (
-      <HomeBanner avatarImage={homeAvatarImage} >
+      <HomeBanner avatarImage={homeAvatarImage}>
         <HomeContent />
       </HomeBanner>
     )
@@ -48,7 +48,7 @@ const postsHaveSeries = sortedPosts.some((post) => post.data.series)
   {
     postsHaveTags && (
       <section>
-        <BlockHeader>Tags</BlockHeader>
+        <BlockHeader>标签</BlockHeader>
         <TagsSection posts={sortedPosts} />
       </section>
     )
@@ -56,7 +56,7 @@ const postsHaveSeries = sortedPosts.some((post) => post.data.series)
   {
     sortedPosts.length > 0 && (
       <section>
-        <BlockHeader>Latest Posts</BlockHeader>
+        <BlockHeader>随笔</BlockHeader>
         {sortedPosts
           .reverse()
           .slice(0, Math.floor(siteConfig.pageSize / 2))

@@ -25,6 +25,14 @@
   src: url(@fontsource/fusion-pixel-12px-monospaced-sc/files/fusion-pixel-12px-monospaced-sc-latin-400-normal.woff2) format('woff2'), url(@fontsource/fusion-pixel-12px-monospaced-sc/files/fusion-pixel-12px-monospaced-sc-latin-400-normal.woff) format('woff');
 }
 
+body{
+  font-family: "Fusion Pixel 12px Monospaced SC";
+}
+
+.pixelate{
+  font-family: "Fusion Pixel 12px Monospaced SC";
+}
+
 @theme {
   --color-accent: var(--theme-accent);
   --color-foreground: var(--theme-foreground);
