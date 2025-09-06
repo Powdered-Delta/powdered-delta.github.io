@@ -2,7 +2,7 @@ import type { SiteConfig } from '~/types'
 
 const config: SiteConfig = {
   // Absolute URL to the root of your published site, used for generating links and sitemaps.
-  site: 'powdered-delta.github.io',
+  site: 'https://powdered-delta.github.io',
   // The name of your site, used in the title and for SEO.
   title: 'M0e_N00b`s Nest',
   // The description of your site, used for SEO and RSS feed.
@@ -15,7 +15,7 @@ const config: SiteConfig = {
   // Path to the image used for generating social media previews.
   // Needs to be a square JPEG file due to limitations of the social card generator.
   // Try https://squoosh.app/ to easily convert images to JPEG.
-  socialCardAvatarImage: './src/content/avatar.jpg',
+  socialCardAvatarImage: './src/content/avatar.png',
   // Font imported from @fontsource or elsewhere, used for the entire site.
   // To change this see src/styles/global.css and import a different font.
   // font: 'JetBrains Mono Variable',

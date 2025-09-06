@@ -1,0 +1,40 @@
+---
+// src/components/PersistentLive2D.astro
+---
+
+<script is:inline>
+  // 使用立即执行函数确保只初始化一次
+  ;(() => {
+    if (window.live2dWidgetSetup) return
+
+    window.live2dWidgetSetup = true
+
+    // 创建容器
+    if (!document.getElementById('live2d-container')) {
+      const container = document.createElement('div')
+      container.id = 'live2d-container'
+      container.style.cssText = 'position: fixed; right: 0; bottom: 0; z-index: 9999;'
+      document.body.appendChild(container)
+    }
+
+    // 加载脚本
+    const checkAndLoad = () => {
+      if (typeof loadlive2d !== 'undefined') {
+        if (!document.getElementById('live2d-widget')) {
+          loadlive2d('live2d-widget', '/live2d/model.json')
+        }
+      } else {
+        setTimeout(checkAndLoad, 100)
+      }
+    }
+
+    if (typeof loadlive2d === 'undefined') {
+      const script = document.createElement('script')
+      script.src = '/js/live2d-widget/dist/autoload.js'
+      script.onload = checkAndLoad
+      document.head.appendChild(script)
+    } else {
+      checkAndLoad()
+    }
+  })()
+</script>
